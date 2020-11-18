@@ -1,7 +1,12 @@
 # import pandas as pd
 import requests
 import json
-from dateutil.parser import parse # for parsing datetime strings in the format "2019-08-21T21:01:00.000Z"
+import fiona
+
+# for parsing datetime strings in the format "2019-08-21T21:01:00.000Z"
+from dateutil.parser import parse
+
+
 import GOLD_Systems_token
 
 
