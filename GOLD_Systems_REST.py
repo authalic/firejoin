@@ -1,13 +1,12 @@
 # import pandas as pd
 import requests
 import json
-import fiona
+# import fiona
+import GOLD_Systems_token
 
 # for parsing datetime strings in the format "2019-08-21T21:01:00.000Z"
 from dateutil.parser import parse
 
-
-import GOLD_Systems_token
 
 
 # FBS API Documentation
