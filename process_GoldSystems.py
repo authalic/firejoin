@@ -1,12 +1,18 @@
+'''
+Transform the output of the Gold Systems API to an Esri GeoJSON FeatureCollection format.
+Currenlty only supports point features (lat/lon)
+
+todo: incorporate the polygon features
+'''
+
 import json
 
 
-jsonfile = 'output_GoldSystems.json'
+jsonfile = 'output_test.json'
 outputfile = 'gs_geojson.json'
 
 # # pretty print the JSON dict
 # print(json.dumps(d, sort_keys=True, indent=4))
-
 
 
 def feature(incident):
@@ -29,7 +35,6 @@ def feature(incident):
         return f
 
 
-
 def featurecoll(jsonfile):
 
     # open the output json file from Gold Systems REST API
@@ -47,7 +52,6 @@ def featurecoll(jsonfile):
         fc["features"].append(feature(i))
 
     return fc
-
 
 
 # build a feature collection
