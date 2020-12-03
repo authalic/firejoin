@@ -8,6 +8,14 @@ from datetime import datetime # for strptime() output format
 from datetime import timedelta # to increment the dates in the API calls
 
 
+# date range
+# Dates and Times are in UTC
+startdate_utc = datetime(2020, 1, 1, 7, 0, 0)  # 00:00:00 Jan 1, 2020 MST
+enddate_utc = datetime(2020, 12, 3, 6, 59, 59) # 23:59:59 Dec 2, 2020 MST
+
+# output JSON filename as received from API
+outfile = 'api_output.json'
+
 # FBS API Documentation
 # https://ut.firebilling.org/fire/s/api
 
@@ -38,17 +46,16 @@ headers = {
 def from_gsdate(datestring):
     '''
     accepts a timestamp string in the format used by the Gold Systems API.
+    example: '2020-08-01T06:00:00.000Z'
     returns a Python Datetime object of that value.
     '''
-
-    # example: '2020-08-01T06:00:00.000Z'
 
     return parse(datestring)
 
 
 def to_gsdate(dt):
     '''
-    converts a datetime object to the string format used by Gold Systems
+    converts a Datetime object to the string format used by Gold Systems
     '''
     return dt.isoformat().split('+')[0] + '.000Z'
 
@@ -97,9 +104,17 @@ def get_incidents(datetime_start, datetime_end):
     return json.dumps({"incidents": incidents, "messages": [], "success": True}, sort_keys=False, indent=4)
 
 
-# test code
+# Start/End Dates converted to the format used by Gold Systems API
+startdate_gs = to_gsdate(startdate_utc)
+enddate_gs = to_gsdate(enddate_utc)
 
-incidents = get_incidents('2020-01-1T07:00:00.000Z', '2020-01-15T06:59:59.000Z')
+# get the incidents from API
+incidents = get_incidents(startdate_gs, enddate_gs)
 
+# write output file
 
-print(incidents)
+f = open(outfile, 'w')
+f.write(incidents)
+f.close
+
+print("done")

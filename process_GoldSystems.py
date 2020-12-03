@@ -8,7 +8,7 @@ todo: incorporate the polygon features
 import json
 
 
-jsonfile = 'output_test.json'
+jsonfile = 'api_output.json'
 outputfile = 'gs_geojson.json'
 
 # # pretty print the JSON dict
@@ -59,5 +59,7 @@ def featurecoll(jsonfile):
 fc = featurecoll(jsonfile)
 
 output = open(outputfile, 'w')
-output.write(json.dumps(fc))
+output.write(json.dumps(fc, sort_keys=False, indent=4))
 output.close()
+
+print("done")
