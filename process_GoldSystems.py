@@ -9,7 +9,7 @@ import json
 
 
 jsonfile = 'api_output.json'
-outputfile = 'gs_geojson.json'
+outputfile = 'gs_esri_geojson.json'
 
 # # pretty print the JSON dict
 # print(json.dumps(d, sort_keys=True, indent=4))
@@ -21,18 +21,32 @@ def feature(incident):
     # Note: Order of keys in the dict is important in the final output
 
     # test if lat/lon values are not null
-    if(incident["initialLongitude"] and incident["initialLatitude"]):
+    if(incident["initialLongitude"] and incident["initialLongitude"]):
 
-        geometry = {}
-        geometry["type"] = "Point"
-        geometry["coordinates"] = [float(incident["initialLongitude"]), float(incident["initialLatitude"])]
+        # test if lat/lon values are valid coords in north & west hemispheres
+        if(
+            float(incident["initialLongitude"]) <= 0 and
+            float(incident["initialLongitude"]) >= -180 and
+            float(incident["initialLatitude"]) >= 0 and
+            float(incident["initialLatitude"]) <= 90
+        ):
 
-        f = {}
-        f["type"] = "Feature"
-        f["geometry"] = geometry
-        f["properties"] = incident
+            geometry = {}
+            geometry["type"] = "Point"
+            geometry["coordinates"] = [float(incident["initialLongitude"]), float(incident["initialLatitude"])]
 
-        return f
+            f = {}
+            f["type"] = "Feature"
+            f["geometry"] = geometry
+            f["properties"] = incident
+
+            return f
+        else:
+            # return None if the feature lacks lacks lat/lon coords
+            pass
+    else:
+        # return None if the feature lacks lacks valid lat/lon coords
+        pass
 
 
 def featurecoll(jsonfile):
@@ -49,7 +63,12 @@ def featurecoll(jsonfile):
 
     # loop through all the incident dicts
     for i in d['incidents']:
-        fc["features"].append(feature(i))
+        incident = feature(i)
+
+        # if a feature lacks lat/lon coordinates, feature() will return None
+
+        if incident:
+            fc["features"].append(incident)
 
     return fc
 
