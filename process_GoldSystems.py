@@ -30,7 +30,6 @@ def feature(incident):
             float(incident["initialLatitude"]) >= 0 and
             float(incident["initialLatitude"]) <= 90
         ):
-
             geometry = {}
             geometry["type"] = "Point"
             geometry["coordinates"] = [float(incident["initialLongitude"]), float(incident["initialLatitude"])]
@@ -42,11 +41,30 @@ def feature(incident):
 
             return f
         else:
-            # return None if the feature lacks lacks lat/lon coords
-            pass
+            # return a point on the Equator if the feature lacks lacks valid lat/lon coords
+            geometry = {}
+            geometry["type"] = "Point"
+            geometry["coordinates"] = [-111.0, 0.0]
+
+            f = {}
+            f["type"] = "Feature"
+            f["geometry"] = geometry
+            f["properties"] = incident
+
+            return f
     else:
-        # return None if the feature lacks lacks valid lat/lon coords
-        pass
+        # return a point on the Equator if the feature lacks lacks valid lat/lon coords
+        # todo: remove this redundant code and rework the if statement
+        geometry = {}
+        geometry["type"] = "Point"
+        geometry["coordinates"] = [-111.0, 0.0]
+
+        f = {}
+        f["type"] = "Feature"
+        f["geometry"] = geometry
+        f["properties"] = incident
+
+        return f
 
 
 def featurecoll(jsonfile):

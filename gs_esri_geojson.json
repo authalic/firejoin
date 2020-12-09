@@ -1634,6 +1634,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 44484,
+                "createdDate": "2019-09-30T19:40:12.513Z",
+                "modifiedDate": "2020-01-16T12:51:03.293Z",
+                "irwinId": null,
+                "year": 2019,
+                "number": "CORMC-190005",
+                "fireCode": "E5XZ",
+                "name": "2019 RMA Preposition",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2019-04-24T00:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2019-CORMC-190005"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -111.9114,
                     39.96093
                 ]
@@ -1923,6 +1960,43 @@
                 "initialLatitude": "38.39551",
                 "initialLongitude": "-109.4497",
                 "uniqueFireIdentifier": "2019-UTMOD-009329"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 44728,
+                "createdDate": "2020-02-19T15:58:14.483Z",
+                "modifiedDate": "2020-02-19T15:58:14.737Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "TNCNF-000001",
+                "fireCode": "EK6T",
+                "name": "CY20 Cherokee NF Support",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-01-01T00:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-TNCNF-000001"
             }
         },
         {
@@ -24796,6 +24870,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 45351,
+                "createdDate": "2020-06-25T19:15:27.557Z",
+                "modifiedDate": "2020-06-25T19:15:27.703Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "AZA4S-000950",
+                "fireCode": "M676",
+                "name": "OR supporting Central",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-06-01T00:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-AZA4S-000950"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -107.3091,
                     37.45146
                 ]
@@ -36192,6 +36303,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 45975,
+                "createdDate": "2020-08-01T23:59:04.610Z",
+                "modifiedDate": "2020-08-01T23:59:04.733Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "NVHTF-500917",
+                "fireCode": "M98V",
+                "name": "COTTONWOOD",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-07-20T00:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-NVHTF-500917"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -111.0095,
                     39.34406
                 ]
@@ -46552,6 +46700,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46310,
+                "createdDate": "2020-08-26T12:52:44.310Z",
+                "modifiedDate": "2020-08-26T12:52:44.450Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "CASTF-001722",
+                "fireCode": "EK51",
+                "name": "FY20 STF Preparedness Support",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-07-01T00:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-CASTF-001722"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -121.3036,
                     45.93711
                 ]
@@ -49320,6 +49505,43 @@
                 "initialLatitude": "41.15942",
                 "initialLongitude": "-111.9888",
                 "uniqueFireIdentifier": "2020-UTBRS-000849"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46385,
+                "createdDate": "2020-09-02T15:21:25.697Z",
+                "modifiedDate": "2020-09-02T15:21:25.807Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "NVELD-040028",
+                "fireCode": "",
+                "name": "2020 ELD NV Severity",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-07-01T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-NVELD-040028"
             }
         },
         {
@@ -60649,6 +60871,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46615,
+                "createdDate": "2020-09-28T17:17:38.497Z",
+                "modifiedDate": "2020-09-28T17:17:38.607Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "MTCGF-000214",
+                "fireCode": "EKS9",
+                "name": "Bridger Foothills",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-09-04T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-MTCGF-000214"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -110.0271,
                     40.42827
                 ]
@@ -61722,6 +61981,80 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46671,
+                "createdDate": "2020-10-05T15:09:00.947Z",
+                "modifiedDate": "2020-10-05T17:38:56.800Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "CACAS-000001",
+                "fireCode": "",
+                "name": "2020 California EMAC",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-09-01T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-CACAS-000001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46673,
+                "createdDate": "2020-10-05T15:11:59.527Z",
+                "modifiedDate": "2020-10-05T15:11:59.543Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "WAWAS-000001",
+                "fireCode": "",
+                "name": "2020 Washington EMAC",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-09-01T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-WAWAS-000001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -112.593,
                     36.257
                 ]
@@ -62018,6 +62351,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46686,
+                "createdDate": "2020-10-07T17:02:16.580Z",
+                "modifiedDate": "2020-10-07T17:03:34.033Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "ORFWF-200404",
+                "fireCode": "",
+                "name": "Two Four Two",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": 0.0,
+                "fireDiscoveryDateTime": "2020-09-06T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-ORFWF-200404"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -117.255,
                     33.90639
                 ]
@@ -62048,6 +62418,80 @@
                 "initialLatitude": "33.90639",
                 "initialLongitude": "-117.255",
                 "uniqueFireIdentifier": "2020-CAOSC-000031"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46700,
+                "createdDate": "2020-10-08T15:56:13.467Z",
+                "modifiedDate": "2020-10-08T15:56:29.043Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "ORR06-000009",
+                "fireCode": "",
+                "name": "Beachie Creek FLA Team",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": 0.0,
+                "fireDiscoveryDateTime": "2020-09-27T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-ORR06-000009"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46701,
+                "createdDate": "2020-10-08T17:56:44.900Z",
+                "modifiedDate": "2020-10-08T17:57:25.103Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "ORFWF-200406",
+                "fireCode": "",
+                "name": "Brattain",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": 0.0,
+                "fireDiscoveryDateTime": "2020-09-08T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-ORFWF-200406"
             }
         },
         {
@@ -72896,6 +73340,43 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 45277,
+                "createdDate": "2020-06-16T22:29:43.497Z",
+                "modifiedDate": "2020-11-11T15:43:20.213Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "UTFIF-200134",
+                "fireCode": "EK49",
+                "name": "2020 Fishlake Support DO NOT USE",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": 0.01,
+                "fireDiscoveryDateTime": "2020-06-05T00:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
+                "uniqueFireIdentifier": "2020-UTFIF-200134"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -111.2993,
                     40.71697
                 ]
@@ -73406,6 +73887,43 @@
                 "residencesDestroyed": 0,
                 "initialLatitude": "43.975227",
                 "initialLongitude": "-120.35942",
+                "uniqueFireIdentifier": "2020-ORORS-000001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.0,
+                    0.0
+                ]
+            },
+            "properties": {
+                "id": 46672,
+                "createdDate": "2020-10-05T15:10:38.663Z",
+                "modifiedDate": "2020-11-11T15:51:13.970Z",
+                "irwinId": null,
+                "year": 2020,
+                "number": "ORORS-000001",
+                "fireCode": "",
+                "name": "2018 Oregon EMAC",
+                "pooLandownerCategory": null,
+                "pooProtectingUnit": null,
+                "generalCause": null,
+                "specificCause": null,
+                "finalAcres": null,
+                "totalAcres": null,
+                "fireDiscoveryDateTime": "2020-09-01T06:00:00.000Z",
+                "fireOutDateTime": null,
+                "injuries": 0,
+                "fatalities": 0,
+                "otherStructuresThreatened": 0,
+                "otherStructuresDestroyed": 0,
+                "residencesThreatened": 0,
+                "residencesDestroyed": 0,
+                "initialLatitude": null,
+                "initialLongitude": null,
                 "uniqueFireIdentifier": "2020-ORORS-000001"
             }
         },
